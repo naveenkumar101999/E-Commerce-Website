@@ -78,6 +78,7 @@
     background-color: transparent;
     padding: 10px;
     margin-left: 0px;
+    text-decoration: none;
 }
 
 .containers {
@@ -147,6 +148,7 @@
     background-color: transparent;
     padding: 10px;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .search {
@@ -222,6 +224,7 @@
     background-color: transparent;
     padding: 10px;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 .banner2 h4 {
@@ -249,6 +252,7 @@
     background-color: transparent;
     padding: 10px;
     margin-left: 10px;
+    text-decoration: none;
 }
 
 .banner3 h2 {
@@ -305,6 +309,7 @@
     border: 2px solid black;
     background-color: transparent;
     margin-left: 0px;
+    text-decoration: none;
 }
 
 .letterbox input {
@@ -322,6 +327,7 @@
     background-color: #e48c9a;
     text-align: center;
     align-items: center;
+    position: fixed;
 }
 .footer {
     min-height: 35vh;
@@ -423,9 +429,9 @@
 @media screen and (max-width:699px) {
     .main{
         height: 70vh;
-        padding: 0 80px;
+    
         background-position: top 30% right 35%;
-        padding-left: 40%;
+        padding-left: 50%;
     }
 
     .footer {
